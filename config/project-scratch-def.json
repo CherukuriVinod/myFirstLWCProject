@@ -1,0 +1,16 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "adminEmail": "vinod.cherukuris@gmail.com",
+  "description": "Dev org for pluralsight LWC Courses",
+  "hasSampleData": true,
+  "features": ["DebugApex", "AuthorApex","EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
