@@ -14,5 +14,3 @@ export default class MyFirstLWC extends LightningElement {
         this.searchComplete = true;
     }
 }
-
-//Test
