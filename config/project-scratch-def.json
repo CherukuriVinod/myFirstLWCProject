@@ -4,7 +4,7 @@
   "adminEmail": "vinod.cherukuris@gmail.com",
   "description": "Dev org for pluralsight LWC Courses",
   "hasSampleData": true,
-  "features": ["DebugApex", "AuthorApex","EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true

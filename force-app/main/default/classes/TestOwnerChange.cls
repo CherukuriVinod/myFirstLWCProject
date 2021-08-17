@@ -2,6 +2,7 @@
 public with sharing class TestOwnerChange {
 
     @istest
+    
     private static void TestOwnerChange1()
     {
         // Create some test contacts

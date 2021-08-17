@@ -44,7 +44,6 @@ public with sharing class ProgramFlowExperiment {
         }
         SendQueuedEmails();
     }
-
 }
 
 //This class will be called during the after update trigger on the Contact to detect when the owner of the Contact has changed.
