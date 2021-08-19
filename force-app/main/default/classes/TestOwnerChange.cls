@@ -1,4 +1,5 @@
 @istest
+
 public with sharing class TestOwnerChange {
 
     @istest
