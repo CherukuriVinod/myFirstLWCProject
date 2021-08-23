@@ -287,11 +287,11 @@ public with sharing class SocialReach {
 		
     	List<AggregateResult> totals = [Select count(TwitterID__c) twits, 
     		count(FacebookID__c) likes, count(LinkedInID__c) links, 
-    		max(LinksAndLikes__c) linksandlikes, 
-    		max(TwitsAndLikes__c) twitsandlikes, 
-    		max(TwitsAndLinks__c) twitsandlinks, 
-    		max(AllThreeNetworks__c) allthree, 
-    		max(AntiSocial__c) antisocial, 
+    		sum(LinksAndLikes__c) linksandlikes, 
+    		sum(TwitsAndLikes__c) twitsandlikes, 
+    		sum(TwitsAndLinks__c) twitsandlinks, 
+    		sum(AllThreeNetworks__c) allthree, 
+    		sum(AntiSocial__c) antisocial, 
     		AccountID from Contact 
     		where AccountID in :accounts.keyset() Group By AccountID];
     	

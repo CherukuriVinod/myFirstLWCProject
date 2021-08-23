@@ -3,9 +3,10 @@
     <fullName>TwitsAndLinks__c</fullName>
     <externalId>false</externalId>
     <label>TwitsAndLinks</label>
-    <length>30</length>
+    <precision>18</precision>
     <required>false</required>
+    <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Text</type>
+    <type>Number</type>
     <unique>false</unique>
 </CustomField>
