@@ -61,7 +61,7 @@ export default class LeadList extends NavigationMixin (LightningElement) {
     loadLeads({error, data}){
         if(data){
             this.leads = data;
-            const selectedEvent = new CustomEvent('searchComplete', {detail: this.searchTerm});
+            const selectedEvent = new CustomEvent('searchcomplete', {detail: this.searchTerm});
             this.dispatchEvent(selectedEvent);
             this.error = undefined;
         } else if (error){
