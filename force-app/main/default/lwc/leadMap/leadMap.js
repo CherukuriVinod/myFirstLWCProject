@@ -3,9 +3,9 @@ import searchLeads from '@salesforce/apex/LeadSearchController.searchLeads';
 
 export default class leadMap extends LightningElement {
 
-    @track markers=[];
+    @track markers;
     @track error;
-    @track leads = [];
+    @track leads;
     
     // Private Variable
     searchTerm;
@@ -23,6 +23,7 @@ export default class leadMap extends LightningElement {
     })
     loadLeads({error, data}){
         if(data){
+            this.leads = [];
             this.markers=[];
             this.leads = data;
             this.markers = data.map(lead => {

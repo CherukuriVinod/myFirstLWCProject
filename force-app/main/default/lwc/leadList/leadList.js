@@ -44,8 +44,8 @@ export default class LeadList extends NavigationMixin (LightningElement) {
     @track error;
 
     handleSearchTermChange(event){
+        this.searchTerm = event.target.value;
         if(this.leads){
-            this.searchTerm = event.target.value;
             const selectedEvent = new CustomEvent('newsearch', {detail: this.searchTerm});
             window.clearTimeout(this.delayTimeout);
             // eslint-disable-next-line @lwc/lwc/no-async-operation
@@ -80,6 +80,5 @@ export default class LeadList extends NavigationMixin (LightningElement) {
                 actionName: 'view',
             }
         });
-    }
-    
+    }  
 }
