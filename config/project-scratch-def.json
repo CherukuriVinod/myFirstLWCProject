@@ -1,8 +1,8 @@
 {
-  "orgName": "Demo company",
+  "orgName": "SFDC SDFX",
   "edition": "Developer",
   "adminEmail": "vinod.cherukuris@gmail.com",
-  "description": "Dev org for pluralsight LWC Courses",
+  "description": "Scratch org for pluralsight LWC Courses",
   "hasSampleData": true,
   "features": ["EnableSetPasswordInApi"],
   "settings": {
